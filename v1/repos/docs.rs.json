@@ -1,0 +1,26 @@
+{
+  "org": "rust-lang",
+  "name": "docs.rs",
+  "description": "crates.io documentation generator",
+  "bots": [
+    "rustbot"
+  ],
+  "teams": [
+    {
+      "name": "docs-rs",
+      "permission": "write"
+    },
+    {
+      "name": "docs-rs-reviewers",
+      "permission": "write"
+    }
+  ],
+  "members": [],
+  "branch_protections": [
+    {
+      "pattern": "master",
+      "ci_checks": [],
+      "dismiss_stale_review": false
+    }
+  ]
+}
